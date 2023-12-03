@@ -1,0 +1,145 @@
+/* Media Queries are solely based/ determined by view height and view width of the screen */
+
+/* VH and VW ???  */
+/* Screen Percentages */
+
+/*** Rule Of Thumb:  ALWAYS ALWAYS ALWAYS START WITH MOBILE VIEW*/
+
+
+@media screen and (max-width: 1280px) {
+    body {
+      background-color: lightblue;
+    }
+    .navbar{
+        border:solid peru;
+        height:200px;
+        width:50vw;
+        color:lemonchiffon;
+        margin:1em;
+    }
+    .ad{
+        border:solid lemonchiffon;
+        display:block;
+        margin:2em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .main{
+        display:flex;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/227f41b2-5e29-4b6f-a559-037a7faeb473/air-jordan-5-x-a-ma-mani%C3%A9re-womens-shoes-CHfnZp.png');
+        background-size:cover;
+    }
+  }
+/* -------------------------------------------{Desktop View} */
+
+
+
+
+  @media screen and (max-width: 880px) {
+    body {
+      background-color: grey;
+    }
+    .navbar{
+        border:solid salmon;
+        height:200px;
+        width:50vw;
+        color:blue;
+        margin:1em;
+    }
+    .ad{
+        border:solid salmon;
+        display:block;
+        margin:.4em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .main{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5ed98ae0-e2ec-4b0c-8e24-461b69460949/air-jordan-11-gratitude-mens-shoes.png');
+        background-size:cover;
+    }
+  }
+/* -------------------------------------------{Mid [IPAD]} */
+
+
+
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: black;
+    }
+    .navbar{
+        border:solid white;
+        height:200px;
+      width:50vh;
+      color:lime;
+      margin:1em;
+      
+    }
+    .ad{
+        border:solid white;
+        display:block;
+        margin:1em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:right;
+        font-size:22px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .main{
+        display:block;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image:url('https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c61d125f-e376-4341-bb46-9d7bfe4ccc63/air-jordan-1-high-og-mauve-mens-shoes-JHpxkn.png');
+        background-size:cover;
+    }
+  }
+  /* -------------------------------------------{Mobile View} */
+
+
+
+
+
+  /* ------------------------{DEFAULT} */
