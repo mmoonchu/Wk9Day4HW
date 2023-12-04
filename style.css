@@ -12,8 +12,9 @@ body {
   height:290px;
   /* width:290px; */
   border:solid orange;
-  background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg");
+  background-image: url("https://s.abcnews.com/images/Technology/whale-gty-jt-191219_hpMain_16x9_1600.jpg");
   background-size:cover;
+  background-position: 50%;
 }
 .desc {
   width: auto;
@@ -28,6 +29,9 @@ body {
     background-color: rgb(90, 77, 175);
     color: white;
   } 
+  .magic {
+    background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg");
+  }
 }
 
 /* Med */
@@ -36,6 +40,10 @@ body {
     background-color: lemonchiffon;
     color: black;
   }
+  .magic {
+    background-image: url('https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg');
+    background-position: 90%;
+  }
 }
 
 /* small */
@@ -43,6 +51,18 @@ body {
     body {
       background-color: black;
       color: white
+    }
+    .block {
+      flex-flow: column wrap;
+      max-width: 100%;
+    }
+    .magic {
+      background-image: url('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/11/featured-image-mouse.jpeg-e1668166623706.jpg');
+      background-size: cover;
+      max-width: 100%;
+    }
+    .desc {
+      max-width: 100%;
     }
 }
 
